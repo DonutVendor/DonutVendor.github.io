@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="generator"
+    content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Dwarven Realm Studio</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!-- Custom fonts for this template -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Custom styles for this template -->
+    <link href="../css/freelancer.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+  </head>
+  <body id="page-top">
+  <!-- Navigation -->
+  <div w3-include-html="../global/devblogNav.html"></div>
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+		<br /><br /><br /> <br /><br /><br /><br /><br /> <br /><br />
+      <div class="intro-text">
+        <br />
+        <br />
+        <br />
+        <span class="name">Dev Blog #10</span>
+        <br /><br /><br />
+        <span class="skills">Progress Report</span>
+		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      </div>
+    </div>
+  </header>
+  <!-- Who We Are Section -->
+  <section id="portfolio" class="success">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 ml-auto">
+          <h2 class="text-center">System Reworks</h2>
+          <h3 class="text-center">July 2018</h3>
+          <br />
+          <p>In the previous blog, we stated that we were transitioning to working on some of the core gameplay mechanics, and thats exactly what we have done.
+		  To start, we went through several different inventory types, until we found the one we think will work best for this type of game. We tried out lists, collections of images,
+		  draggable items, and several other until we decided it would be best to have a draggable inventory like most survival games. With this, we updated our inventory system to work
+		  with our new crafting system, as well as adding plently of calls to integrate with our AI, which brings us to our next system rework.
+		  <br /><br />
+		  Previously, our AI worked off of a Finite State Machine(FSM) like system that would transition their tasks according. However, after working on adding some new tasks, and integrating with
+		  this new inventory, we realized how buggy and hard to work with our AI task system was. Because of this, we sat down and rewrote the entire system, using a Goal Oriented Action Planning algorithm
+		  that not only is far more optimized then our previous system, it is far more future proof making adding and modifying citizen tasks really straight forward and simple. This should allow us to make 
+		  more progress in a reduced amount of time.
+		  <br /><br />
+		  Additionally we started work on a lot of other systems, including but not limited to, our weapon system, citizen happiness states, hunger/stamina, town overviews, and our building system. Of course,
+		  we have so much more to accomplish, but we are making steady progress! Please stay tuned till our next update! Side note, we are trying to keep the Dev Blogs on a monthly basis, with new ones released somewhere
+		  in the middle of the month. Follow us on Twitter to get notified when one goes live!
+		  </p>
+          <br />
+          <br />
+          <p class="text-center">
+            <img class="img-fluid img-centered" src="../img/portfolio/DevBlog10.png" alt="" />
+            <br />
+            <br />
+          </p>
+          <ul class="list-inline item-details text-center">
+            <li>Download: 
+            <strong>
+              <a href="">Pre Alpha Release Coming Soon</a>
+            </strong></li>
+            <li>Projects Worked On: 
+            <strong>
+              <a href="">Exhiled</a>
+            </strong></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <div class="container">
+            <h3 class="text-center">Previous Blogs</h3>
+            <br />
+            <div class="row">
+			
+              <div class="col-lg-12 portfolio-item img-right">
+                <a class="portfolio-link" href="devblog9">
+                  <div class="caption">
+                    <div class="caption-content">
+                      <h3>Dev Blog #9</h3>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="../img/portfolio/DevBlog9.png" alt="" />
+                </a>
+              </div>
+			  
+			  <div class="col-lg-12 portfolio-item img-right">
+                <a class="portfolio-link" href="devblog8">
+                  <div class="caption">
+                    <div class="caption-content">
+                      <h3>Dev Blog #8</h3>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="../img/portfolio/DevBlog8.png" alt="" />
+                </a>
+              </div>
+			  
+			  <div class="col-lg-12 portfolio-item img-right">
+                <a class="portfolio-link" href="devblog7">
+                  <div class="caption">
+                    <div class="caption-content">
+                      <h3>Dev Blog #7</h3>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="../img/portfolio/DevBlog7.png" alt="" />
+                </a>
+              </div>
+			  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+	<div w3-include-html="../global/footer.html"></div>
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-top d-lg-none">
+    <a class="btn btn-primary ../js-scroll-trigger" href="index"></a>
+  </div>
+  <!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.../js"></script> 
+  <script src="../vendor/popper/popper.min.../js"></script> 
+  <script src="../vendor/bootstrap/../js/bootstrap.min.../js"></script> 
+  <!-- Plugin JavaScript -->
+   
+  <script src="../vendor/jquery-easing/jquery.easing.min.../js"></script> 
+  <!-- Contact Form JavaScript -->
+   
+  <script src="../js/jqBootstrapValidation.../js"></script> 
+  <script src="../js/contact_me.../js"></script> 
+  <!-- Custom scripts for this template -->
+   
+  <script src="../js/freelancer.min.js"></script> 
+  
+  <script src="../js/includeHTML.js"></script> 
+  <script>includeHTML();</script>
+
+  </body>
+</html>
