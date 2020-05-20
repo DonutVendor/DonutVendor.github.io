@@ -29,7 +29,7 @@
         <br />
         <br />
         <br />
-        <span class="name">Dev Blog #9</span>
+        <span class="name">Dev Blog #13</span>
         <br /><br /><br />
         <span class="skills">Progress Report</span>
 		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
@@ -41,25 +41,21 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 ml-auto">
-          <h2 class="text-center">Progress Report</h2>
-          <h3 class="text-center">June 2018</h3>
+          <h2 class="text-center">Task Prioritization</h2>
+          <h3 class="text-center">October 2018</h3>
           <br />
-          <p>Its been 6 months since the last update, but a lot has happened sense then. First year of college has come and gone and with that, a bit of work here and there on different projects.
-		  Anyways, long story short, I have some free time once again and I'm getting back to work on what used to be the Exhiled Project.
-		  <br />
-		  <br />
-		  I'm calling it the Exhiled Project as I have yet to come to a conclusion on the name for the game, but I have been hard at work at all of its main features. From Inventory systems, to AI Task management systems,
-		  The game is starting to piece together. I've recently transitioned to focusing on developing some of the core gameplay mechanics in hopes that I can get a pre alpha release out some time soon. This release will
-		  be open to the public in hope for feedback on the game mechanics, and of course the task of catching all of those pesky bugs.
-		  <br />
-		  <br />
-		  Essentially, the game is focused around a colony management sim, but with an extra twist that I will hold on to until that pre alpha release. Anyways, I should be able to continue to make good progress over the course
-		  of the next couple weeks without interuptions, so stay tuned for that download link.
-		  </p>
+          <p>While last month we said that we were going to start work on the combat system, we quickly realized that there were some other tasks that we needed to change around first. A large part of this was the fact that we had no way of telling citizens which types of tasks were more important than others. Instead, citizens worked on tasks in the order they received them, which was by no means efficient. Additionally, we didn’t want to just have a static order for how tasks would be accomplished, we wanted to adapt a system similar to that in RimWorld, where you could tell each individual citizen which tasks are more important to work on than others.
+            <br /><br />
+            From there, we also caught many other issues within the task system, including a bug that would freeze citizens in an infinite loop if the task they were working on, couldn’t be completed. So with some shuffling of code and a few reworks, citizens now check to ensure a task can be completed, before taking it on. This will also help with citizens getting tasks done faster, as they won’t have to walk to a location, just to realize they don’t have the required elements to finish that task.
+            <br /><br />
+            Finally this month, we worked on our crafting system! While this was the system we were working on when we discovered the freezing citizen bug, the whole thing was actually a lot of fun to make! The crafting system consists of a queue of items to craft, that allow citizens to work on when they have the required materials. Citizens will skip items in the queue if they don’t have the resources and can be set to prioritize crafting items.
+            <br /><br />
+            Next month will probably consist of some polishing to our building system, and a rough implementation of our combat system. We are really pushing to have some kind of release next month, just so we can get input back on features we have implemented thus far. Till next month, we’ll be banging away at our keyboards.
+          </p>
           <br />
           <br />
           <p class="text-center">
-            <img class="img-fluid img-centered" src="../img/portfolio/DevBlog9.png" alt="" />
+            <img class="img-fluid img-centered" src="../img/portfolio/DevBlog13.png" alt="" />
             <br />
             <br />
           </p>
@@ -81,35 +77,35 @@
             <div class="row">
 			
               <div class="col-lg-12 portfolio-item img-right">
-                <a class="portfolio-link" href="devblog8">
+                <a class="portfolio-link" href="devblog12">
                   <div class="caption">
                     <div class="caption-content">
-                      <h3>Dev Blog #8</h3>
+                      <h3>Dev Blog #12</h3>
                     </div>
                   </div>
-                  <img class="img-fluid" src="../img/portfolio/DevBlog8.png" alt="" />
+                  <img class="img-fluid" src="../img/portfolio/DevBlog12.png" alt="" />
                 </a>
               </div>
 			  
-			  <div class="col-lg-12 portfolio-item img-right">
-                <a class="portfolio-link" href="devblog7">
+              <div class="col-lg-12 portfolio-item img-right">
+                <a class="portfolio-link" href="devblog11">
                   <div class="caption">
                     <div class="caption-content">
-                      <h3>Dev Blog #7</h3>
+                      <h3>Dev Blog #11</h3>
                     </div>
                   </div>
-                  <img class="img-fluid" src="../img/portfolio/DevBlog7.png" alt="" />
+                  <img class="img-fluid" src="../img/portfolio/DevBlog11.png" alt="" />
                 </a>
               </div>
-			  
-			  <div class="col-lg-12 portfolio-item img-right">
-                <a class="portfolio-link" href="devblog6">
+
+              <div class="col-lg-12 portfolio-item img-right">
+                <a class="portfolio-link" href="devblog10">
                   <div class="caption">
                     <div class="caption-content">
-                      <h3>Dev Blog #6</h3>
+                      <h3>Dev Blog #10</h3>
                     </div>
                   </div>
-                  <img class="img-fluid" src="../img/portfolio/DevBlog6.png" alt="" />
+                  <img class="img-fluid" src="../img/portfolio/DevBlog10.png" alt="" />
                 </a>
               </div>
 			  
